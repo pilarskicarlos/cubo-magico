@@ -71,6 +71,41 @@ a:hover {
 .inicio-texto{
     font-family: 'Oswald', sans-serif;
     padding: 24px 0;
+    padding-block-end: 180px;
+} 
+
+.algoritimos{
+    background-image: linear-gradient(#9c9c9c,#ffffff);
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding-right: 20;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.algoritimo{
+    width: 35%;
+}
+
+.algoritimo-texto-2{
+    font-family: 'Oswald', sans-serif;
+    padding: 24px 0;
+    padding-block-end: 180px;
+}
+
+.algoritimo-texto-1{
+    font-family: 'Oswald', sans-serif;
+    padding: 24px 0;
+}
+
+.algoritimo-titulo{
+    padding: 24px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.alogoritimo-imagem{
+    display: flex;
 }
 
 .rodape{
@@ -94,3 +129,18 @@ a:hover {
     padding: 12px 0;
 
 }
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;   
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;          
+  }
