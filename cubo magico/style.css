@@ -71,17 +71,16 @@ a:hover {
 .inicio-texto{
     font-family: 'Oswald', sans-serif;
     padding: 24px 0;
-    padding-block-end: 180px;
+    padding-block-end: 500px;
 } 
 
 .algoritimos{
     background-image: linear-gradient(#9c9c9c,#ffffff);
-    color: rgb(0, 0, 0);
-    display: inline-block;
-    padding-right: 20;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
+   color: rgb(0, 0, 0);
+   display: flex;padding-right: 20;
+   justify-content: center;
+   align-items: center;
+   padding: 24px 0;
 }
 
 .algoritimo{
